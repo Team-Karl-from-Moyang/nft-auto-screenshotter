@@ -1,0 +1,14 @@
+{
+    "name": "NFT auto screenshotter",
+    "description": "based",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "engine.js"
+    },
+    "permissions": [
+        "desktopCapture",
+        "tabs",
+        "downloads"
+    ]
+  }
